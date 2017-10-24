@@ -1,0 +1,12 @@
+{
+  "name": "docker_appmetrics_web_app",
+  "version": "1.0.0",
+  "description": "Node.js with Node Application Metrics on Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "appmetrics-dash": "^3.3.0"
+  }
+}
