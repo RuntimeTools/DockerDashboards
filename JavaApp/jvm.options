@@ -1,0 +1,2 @@
+# Load Javametrics Java agent
+-javaagent:/usr/javametrics/javametrics-agent-1.0.1.jar
