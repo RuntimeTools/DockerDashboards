@@ -16,9 +16,9 @@ services:
     ports:
       - "9080:9080"
 
-  wrk2:
-    image: workload_driver:latest
-    depends_on:
-      - swiftmetrics
-      - appmetrics
-      - javametrics
+#  wrk2:
+#    image: workload_driver:latest
+#    depends_on:
+#      - swiftmetrics
+#      - appmetrics
+#      - javametrics
