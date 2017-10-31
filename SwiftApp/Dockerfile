@@ -7,8 +7,11 @@ EXPOSE 8080
 # Copy demo Swift project
 COPY . .
 
+# Set working directory to SwiftDashDemo
+WORKDIR SwiftDashDemo
+
 # Build Swift project
-RUN cd SwiftDashDemo && swift build
+RUN swift build
 
 # Run Swift Dash Demo on container start
-CMD ["./SwiftDashDemo/.build/debug/SwiftDashDemo"]
+CMD ["./.build/debug/SwiftDashDemo"]
