@@ -10,4 +10,4 @@ PREREQUISITES
  - git clone http://github.com/RuntimeTools/DockerDashboardsWorkshop
  - Or open github.com/RuntimeTools/DockerDashboardsWorkshop in a browser and download the source in a zip file.
  
-Download http://github.com/RuntimeTools/DockerDashboardsWorkshop/blob/master/Workshop1.pdf to get the instructions for participating in the workshop.
+Download http://github.com/RuntimeTools/DockerDashboardsWorkshop/raw/master/Workshop1.pdf to get the instructions for participating in the workshop.
